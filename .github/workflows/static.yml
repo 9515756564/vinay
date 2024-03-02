@@ -1,0 +1,222 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>pariTech</title>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <div id="header1">
+    <div class="div1">
+      <div class="callLogo">
+        <span class="icons1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+            class="bi bi-headset" viewBox="0 0 16 16">
+            <path
+              d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
+          </svg></span>+ 9848984898
+      </div>
+      <div class="emailLogo">
+        <span class="icons1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+            class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+            <path
+              d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z" />
+            <path
+              d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z" />
+          </svg></span>@gmail.com
+      </div>
+    </div>
+    <div class="div2">
+      <div class="locationLogo">
+        <span class="icons1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+            class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+          </svg></span>State Location
+      </div>
+      <div class="dailydealLogo">
+        <span class="icons1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+            class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+            <path fill-rule="evenodd"
+              d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+          </svg></span>Daily deal
+      </div>
+        <div class="myaccountLogo">
+        <span class="icons1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+            class="bi bi-emoji-sunglasses" viewBox="0 0 16 16">
+            <path
+              d="M4.968 9.75a.5.5 0 1 0-.866.5A4.498 4.498 0 0 0 8 12.5a4.5 4.5 0 0 0 3.898-2.25.5.5 0 1 0-.866-.5A3.498 3.498 0 0 1 8 11.5a3.498 3.498 0 0 1-3.032-1.75zM7 5.116V5a1 1 0 0 0-1-1H3.28a1 1 0 0 0-.97 1.243l.311 1.242A2 2 0 0 0 4.561 8H5a2 2 0 0 0 1.994-1.839A2.99 2.99 0 0 1 8 6c.393 0 .74.064 1.006.161A2 2 0 0 0 11 8h.438a2 2 0 0 0 1.94-1.515l.311-1.242A1 1 0 0 0 12.72 4H10a1 1 0 0 0-1 1v.116A4.22 4.22 0 0 0 8 5c-.35 0-.69.04-1 .116z" />
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-1 0A7 7 0 1 0 1 8a7 7 0 0 0 14 0z" />
+          </svg></span>My account
+      </div>
+
+      <div class="loginLogo">
+        <span class="icons1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+            class="bi bi-person-fill" viewBox="0 0 16 16">
+            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+          </svg></span>Login
+      </div>
+    </div>
+  </div>
+  <hr>
+  <header>
+    <div id="head">
+      <div id="header2">
+        <img class="img1" src="https://lh3.googleusercontent.com/proxy/-nbZop3hZfC3jREx_DnKHUiaVm4TA-NBf4Ik1XHtc9eRxj44BSkOZ214BaS_5SXLyz_xVJWLL8ogSd0fKsw2QXeigQ">
+      </div>
+      <div id="header3">
+        <li class="cate" type="none">Categories<span class="cateicon"> +</span></li>
+        <ul class="categorieOptions" type="none">
+          <li class="clist">Cate 1</li>
+          <li class="clist">Cate 2</li>
+          <li class="clist">Cate 3</li>
+        </ul>
+      </div>
+      <div id="header4">
+        <input class="input1" type="text" placeholder="Search Products Here...">
+        <button class="btn1" value="search"><a class='searchlogo' href=""><svg xmlns="http://www.w3.org/2000/svg"
+              width="16" height="20" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg></a></button>
+      </div>
+      <div id="headerLogos">
+        <div id="header5">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart"
+            viewBox="0 0 16 16">
+            <path
+              d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+          </svg>
+        </div>
+        <div id="header6">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle"
+            viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+          </svg>
+        </div>
+        <div id="header7">
+          <span class="shopping"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+          </svg></span><span class="cartcount">0</span>
+        </div>
+        <div class="list"></div>
+      </div>      
+  </header>
+  <!-- <div class="cartItem">
+    <h1>Card</h1>
+    <ul class="listCard"></ul>
+    <div class="checkOut">
+      <div class="total">0</div>
+      <div class="closeCart">Close</div>
+    </div>
+  </div> -->
+  <section id="section1">
+    <div id="sectionHead">
+      <div class="dropDown1">
+        <div class="categories">
+          <span class="icons2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg></span>
+          <span class="selectName">CATEGORIES</span>
+        </div>
+        <div class="selectOptions">
+          <div class="options">New Arrivals</div>
+          <div class="options">Best Selling</div>
+          <div class="options">Accessories</div>
+          <div class="options">Top 100 Offers</div>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="homeHead">
+          <li class="home1" type="none">Home<span class="homeicon"> +</span></li>
+          <ul class="homeOptions" type="none">
+            <li class="hlist">Home 1</li>
+            <li class="hlist">Home 2</li>
+            <li class="hlist">Home 3</li>
+          </ul>
+        </div>
+        <div class="shopHead">
+          <li class="shop1" type="none">Shop<span class="shopicon"> +</span></li>
+          <ul class="shopOptions" type="none">
+            <li class="slist">Shop 1</li>
+            <li class="slist">Shop 2</li>
+            <li class="slist">Shop 3</li>
+          </ul>
+        </div>
+        <div class="pagesHead">
+          <li class="page1" type="none">Pages<span class="pageicon"> +</span></li>
+          <ul class="pageOptions" type="none">
+            <li class="plist">Page 1</li>
+            <li class="plist">Page 2</li>
+            <li class="plist">Page 3</li>
+          </ul>
+        </div>
+        <div class="product">Product</div>
+        <div class="service">Service</div>
+        <div class="contact">Contact</div>
+      </div>
+  </section>
+  <article id="article1">
+    <div class="homePage">
+      <h4 class="offerHead">UP TO 50% OFF</h4>
+      <h1 class="homeHigh">Shirt For Man</h1>
+      <p class="para1">Maboriosam in a nesciung eget magnaebdapibusbdsting tloctio in the find it pereri odiy maboriosam
+      </p>
+      <button class="pageBtn1">SHOPE NOW</button>
+    </div>
+  </article>
+  <section id="section2">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+      style="position:relative;top:5px;">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://imgscf.slidemembers.com/docs/1/1/259/shopping_slide_ppt_258359.jpg" class="d-block w-100"
+            alt="..." height="500">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://img.freepik.com/free-psd/horizontal-banner-template-big-sale-with-woman-shopping-bags_23-2148786755.jpg"
+            class="d-block w-100" alt="..." height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="https://wallpapers.com/images/hd/happy-kid-shopping-swy4nwjzwp9ishzq.jpg" class="d-block w-100"
+            alt="..." height="500">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>
