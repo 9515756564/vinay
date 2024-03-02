@@ -1,0 +1,431 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.icons1{
+    position: relative;
+    bottom: 1px;
+    right:10%;
+}
+.icons2{
+    position: relative;
+     bottom: 1px;
+}
+#header1{
+    display:flex;
+    column-gap:40%;
+    justify-content:space-evenly;
+    height: 30px;
+    padding-top:10px;
+  
+}
+.div1,.div2{
+    display:flex;
+    column-gap:40px;
+    cursor: pointer;
+}
+.div1{
+    position: relative;
+    left:8.5%;
+}
+.div2{
+    position: relative;
+    right:8.5%;
+}
+.img1{
+    width: 200px;
+    height:50px; 
+    position: relative; 
+    left:13%;
+    bottom:25px;
+}
+header{
+    background-color: aqua;
+    height: 80px;
+    padding: 40px;
+    position: relative;
+    bottom: 8px;
+}
+#head{
+    display: grid;
+    grid-template-columns: 40% 10% 30% 20%;
+    justify-content: space-evenly;
+
+}
+.select1{
+    height:28px;
+}
+#header4{
+    position: relative;
+    bottom: 13px;
+}
+.input1{
+    height:31px;
+    width: 250px;
+    border: 0.5px solid gray;
+}
+.btn1{
+    position:relative;
+    right:9.5%;
+    width:29px;
+    background-color:rgb(9, 9, 9);
+    border:none;
+    height:30px;
+ 
+}
+.searchlogo{
+    position: relative;
+    bottom:3px;
+}
+#headerLogos{
+   display: flex;
+   column-gap: 50px;
+   position: relative;
+    bottom: 13px;
+    left:10px;
+    cursor: pointer;
+}
+.cartcount{
+    position: relative;
+    bottom: 6px;
+    background-color: red;
+    padding:2px;
+    border-radius: 50px;
+    color: white;
+    font-size:x-small;
+    cursor: pointer;
+}
+/* .cartItem{
+    text-align: center;
+    top:0;
+    left:60.4%;
+    width: 500px;
+    transition: 0.5s;
+    height: 100vh;
+    display: none;
+}
+.cartItem.active{
+     display:"";
+} */
+/* .checkOut{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position:absolute;
+    bottom: 0;
+}
+.total{
+    background-color: yellow;
+    cursor: pointer;
+    width:250px;
+}
+.closeCart{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 250px;
+
+} */
+#sectionHead{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-evenly;
+    background-color:rgb(77, 71, 71);
+    color: white;
+    align-items: center;
+    height: 80px;
+}
+.dropDown1{
+    position: relative;
+    left:20%;
+    top:13%;
+    width: 200px;
+    margin-bottom:25px;
+}
+.selectOptions{
+ visibility:hidden;
+ color:white;
+} 
+.selectOptions.act{
+visibility:visible;
+background-color:rgb(106, 102, 102);
+} 
+.categories{
+    height:40px;
+    padding:10px;
+    position: relative;
+    bottom: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.options{
+    padding:10px;
+    margin-top:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.options:hover{
+    background-color: rgb(227, 12, 12);
+    transform: scale(1.1,1.1);
+}
+.menu{
+    display: flex;
+    column-gap:20px;
+    position: relative;
+    right:10%;
+}
+.homeHead,.shopHead,.pagesHead{
+    position: relative;
+    right: 20%;
+    bottom:28px;
+    text-align: center;
+}
+.product,.service,.contact{
+    position: relative;
+    bottom: 25px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.product{
+    right: 18%; 
+}
+.service{
+    right:11%;
+}
+.contact{
+    right:5%;
+} 
+
+.categories:hover,.product:hover,.service:hover,.contact:hover{
+    background-color: rgb(214, 34, 34);
+    border-radius: 5px;
+    transform: scale(1.1,1.1);
+}
+.home1,.shop1,.page1{
+  padding:10px;
+}
+.hlist,.slist,.plist{
+    padding: 5px;
+    width: 90px;
+    text-align: left;
+    position: relative;
+    right: 15px;
+}
+.homeOptions,.shopOptions,.pageOptions{
+     position: relative;
+     top: 15px;
+   visibility: hidden;
+}
+.homeOptions.homevisible,.shopOptions.shopvisible,.pageOptions.pagevisible{
+    visibility: visible;
+    background-color:rgb(106, 102, 102);
+}
+.hlist:hover,.slist:hover,.plist:hover{
+    background-color: black;
+    border-radius: 5px;
+    transform: scale(1.1,1.1);
+}
+.home1:hover,.shop1:hover,.page1:hover{
+    background-color: rgb(214, 34, 34);
+    border-radius: 5px;
+    transform: scale(1.1,1.1);
+}
+#header3{
+    position: relative;
+    bottom:15px;
+    right: 2px;
+}
+.cate{
+    padding:3px;
+    margin-top:2px;
+    border: 0.5px solid gray;
+    cursor: pointer;
+}
+.categorieOptions{
+    margin-top:10px;
+    visibility: hidden;
+}
+.categorieOptions.catevisible{
+    visibility: visible;
+    background-color:aqua;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.clist{
+    padding: 10px;
+    width: 111px;
+    position: relative;
+    right: 28px;
+    bottom: 5px;
+}
+.clist:hover{
+    background-color: rgb(240, 186, 8);
+    border-radius: 5px;
+    transform: scale(1.1,1.1);
+}
+.homePage{
+    position:relative;
+    top:130px;
+    left:20px;
+    margin-left:500px;
+    margin-right:350px;
+}
+.homeHigh{
+    color: red;
+    font-family: cursive;
+    font-weight:bold;
+}
+.homePageBtn{
+    margin-top: 20px;
+}
+.pageBtn1{
+    padding: 10px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.pageBtn1:hover{
+    background-color: rgb(250, 112, 7);
+    transform: scale(1.1,1.1);
+}
+#article1{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/299/830/original/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-free-vector.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:370px;
+    animation: homePage 20s infinite linear;
+}
+@keyframes homePage{
+    50%{
+        background-image:url('https://img.freepik.com/premium-photo/shopping-online-delivery-service-mobile-application_68971-457.jpg?w=2000');
+    }
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width:500px){
+
+/* ////////////////////////////////////////    */
+
+    .div1,.div2{
+        display:grid;
+        grid-template-columns:repeat(1,1fr); 
+    }
+   .emailLogo{
+    position: relative;
+    bottom: 35px;
+    left:2px;
+   }
+    #header1{
+      height:150px;
+    }
+
+/* ////////////////////////////////////////   */
+    
+header{
+    height: 200px;
+}
+#head{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+#header3{
+    width: 120px;
+    right: 20px;
+}
+#header4{
+    position: relative;
+    bottom: 204px;
+    left:100px
+}
+.btn1{
+    width:26.5px;
+} 
+#headerLogos{
+    position: relative;
+    bottom:150px;
+    left:190px;
+} 
+
+/* ////////////////////////////////////////   */
+
+#sectionHead{
+    height: 550px;
+}
+.categories,.selectOptions{
+    position: relative;
+    bottom: 226px;
+    right: 50px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.homeHead{
+    position: relative;
+    top: 20px;
+    left:20px;
+}
+.shopHead{
+    position: relative;
+    top: 30px;
+    left:20px;
+}
+.pagesHead{
+    position: relative;
+    bottom: 50px;
+    right:250px;
+}
+.product{
+    position: relative;
+    bottom:20px;
+    right: 150px;
+    border: 1px solid black;
+    width: 80px;
+}
+.service{
+    position: relative;
+    bottom:60px;
+    right: 50px;
+    border: 1px solid black;
+    width: 80px;
+}
+.contact{
+    position: relative;
+    bottom:100px;
+    left: 50px;
+    border: 1px solid black;
+    width: 80px;
+}
+.categories,.home1,.shop1,.page1{
+    border: 1px solid black;
+}
+.selectOptions,.homeOptions,.shopOptions,.pageOptions{
+    visibility: visible;
+    border: 1px solid black;
+}
+.homeOptions{
+    position: relative;
+    bottom: 30px;
+}
+
+/* ////////////////////////////////////////   */
+
+.offerHead,.homeHigh,.para1{
+    width: 200px;
+}
+.pageBtn1,.offerHead,.homeHigh,.para1{
+    position: relative;
+    right: 350px;
+    bottom: 100px; 
+}
+#article1{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+}
